@@ -67,3 +67,10 @@ function registrarLog(msg) {
     li.innerText = `[${new Date().toLocaleTimeString()}] ${msg}`;
     lista.prepend(li);
 }
+
+//Service Worker
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js')
+    .then(() => console.log('Service Worker registrado!'))
+    .catch(err => console.log('Erro ao registrar SW:', err));
+}
