@@ -34,4 +34,4 @@ Acesse o endereço http://localhost:8080 (ou a porta informada pelo servidor) no
 A aplicação foi publicada utilizando a plataforma Netlify. Abaixo está o passo a passo realizado:
 Upload do Projeto: Acessei o painel do Netlify e fiz login. Fui até a seção de "Sites" e arrastei a pasta do meu projeto finalizado (contendo o index.html, manifest.json, service-worker.js, etc.) para a área de upload manual (Deploy manually).
 Configuração: Após o upload, o Netlify gerou um link aleatório. Fui em "Site settings" > "Domain management" > "Options" > "Edit site name" para alterar a URL para algo mais amigável, seguindo o padrão da atividade (buscacep-joaopaulo-nr.netlify.app). Como as PWAs exigem conexão segura, o Netlify automaticamente fornece o certificado HTTPS necessário.
-Link final da aplicação: 👉 [COLOQUE O SEU LINK DO NETLIFY AQUI]
+Link final da aplicação: 👉 [https://buscacep-joaopaulo.netlify.app](https://buscacep-joaopaulo.netlify.app/)
