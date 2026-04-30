@@ -5,7 +5,7 @@ Objetivo da aplicação: O objetivo principal desta versão do projeto é evolui
 Tecnologias utilizadas:
 HTML5
 CSS3
-JavaScript (ES6+)
+JavaScript 
 Fetch API (Consumo da API ViaCEP)
 PWA (Service Workers e Web App Manifest)
 
