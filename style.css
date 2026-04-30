@@ -1,0 +1,20 @@
+/* Estilo do título dos cards internos */
+fieldset legend {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Esconder as abas que não estão ativas - ta na documentação */
+.d-none {
+    display: none !important;
+}
+
+/* Eslitizando como os Logs sao mostrados */
+#listaLogs {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.aba-item {
+    transition: all 0.3s;
+}
